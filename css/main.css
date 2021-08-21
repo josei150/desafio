@@ -1,3 +1,267 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 html{
+    font-size: 62.5%;
+}
+
+header{
+    width: 100%;
+    height: 12.5rem;
+}
+
+header span{
     font-family: 'Hoefler Text', sans-serif;
+    font-size: 2.5rem;
+}
+
+header figure{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.header-logo {
+    position: relative;
+    top: 4.5rem;
+}
+.header-planet{
+    position: relative;
+    top: 10rem;
+}
+
+main{
+    width: 100%;
+    height: 55rem;
+    
+}
+
+.idiomas{
+    
+    position: relative;
+    min-width: 500px;
+    max-width: 550px;
+    margin: 0 auto;
+    height: 35rem;
+
+    
+}
+
+.idiomas div{
+    
+    padding-top: 0;
+    width: 15.6rem;
+    text-align: center;
+
+}
+
+.idiomas div:hover{
+
+    background-color: #eaecf0;
+
+}
+
+.idiomas div strong{
+
+    font-size: 1.6rem;
+    display: inline;
+    width: 100%;
+}
+
+.idiomas div small{
+    font-size: 1.3rem;
+    color: #54595d;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+}
+
+.idiomas a{
+    text-decoration: none;
+    align-items: center;
+    color: #36c;
+    display: inline-block;
+    
+}
+/* Aquí viene la alineación para las cajas de idiomas */
+
+.idiomas .espaniol{
+    position: absolute;
+    top: 0;
+    right: 60%;
+}
+
+.idiomas .ingles{
+    position: absolute;
+    top: 0;
+    left: 60%;
+}
+
+.idiomas .nihongo{
+    position: absolute;
+    top: 20%;
+    right: 70%;
+}
+
+.idiomas .deutsch{
+    position: absolute;
+    top: 20%;
+    left: 70%;
+}
+
+.idiomas .russkiy{
+    position: absolute;
+    top: 40%;
+    right: 72%;
+}
+
+.idiomas .francais{
+    position: absolute;
+    top: 40%;
+    left: 72%;
+}
+
+.idiomas .zho{
+    position: absolute;
+    top: 60%;
+    right: 70%;
+}
+
+.idiomas .italiano{
+    position: absolute;
+    top: 60%;
+    left: 70%;
+}
+
+.idiomas .portu{
+    position: absolute;
+    top: 80%;
+    right: 60%;
+}
+
+.idiomas .angiel{
+    position: absolute;
+   top: 80%;
+    left: 60%;
+}
+
+/* Section 2 */
+
+.busqueda{
+    
+    display: flex;
+    min-width: 300px;
+    max-width: 450px;
+    align-items: center;
+    margin: 0 auto;
+    height: auto;
+    border: 0.2rem solid #a2a9b1;
+    height: 4.5rem;
+    border-radius: 0 3px 3px 0;
+    
+}
+
+.busqueda label,input{
+    border: none;
+    outline-style: none;
+    width: 100%;
+    
+}
+
+.lista-idioma{
+    border: none;
+    background-color: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #54595d;
+    margin-right: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.busqueda button{
+    background-image: url("../imagenes/lupa.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 15%;
+    height: 100%;
+    border: none;
+    background-color: #36c;
+    border-color: #36c;
+    
+}
+
+.busqueda button:hover{
+    background-color: #447ff5;
+    border-color: #447ff5;
+}
+
+.lista-idioma-larga{
+
+    display: flex;
+    max-width: 20%;
+    align-items: center;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+
+}
+
+.lista-idioma-larga button{
+
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    background-color: #f8f9fa;
+    color: #36c;
+    justify-content: center;
+    margin: 0 auto;
+    height: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 3rem;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    
+}
+
+.lista-idioma-larga button option{
+    font-weight: 500;
+}
+
+.lista-idioma-larga figure{
+    position: relative;
+    width: auto;
+    justify-content: flex-end;
+    size: contain;
+}
+
+.lista-idioma-larga .desplegar{
+    display: inline-block;
+    width: auto;
+    size: contain;
+    
+}
+
+.lista-idioma-larga div{
+    position: absolute;
+    left: 30%;
+    height: 1px;
+    width: 40%;
+    border: 1px solid #c8ccd1;
+}
+
+hr{
+    border: 1px solid #c8ccd1;
+    width: 98%;
+    margin: 1rem auto;
+
+}
+
+footer{
+    display: flex;
 }
