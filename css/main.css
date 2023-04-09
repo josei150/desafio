@@ -387,4 +387,14 @@ footer a small{
     color: #54595d;
 }
 
+.jose{
+    display: block;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #447ff5;
+    text-align: center;
+}
 
+.jose a{
+    text-decoration: none;
+}
